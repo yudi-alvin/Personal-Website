@@ -98,7 +98,7 @@
                         <div class="col-md-4 ">
                             <h3 class="text-md-center">About me</h3>
                             <p>I am a business undergraduate with a strong passion for finance and software development. 
-                                My unsatisfiable curiosity for knowledge in finance and software development is my driver for keep improving myself. 
+                                My unsatisfiable curiosities for finance and software development are the driver for continuous improvement. 
                                 Currently, I am in my final year of study and I will be graduating by the end of December 2019. </p>
                                 
                         </div>

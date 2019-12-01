@@ -97,9 +97,11 @@
                     <div class="row">
                         <div class="col-md-4 ">
                             <h3 class="text-md-center">About me</h3>
-                            <p>I am a business undergraduate with a strong passion for finance and software development. 
-                                My unsatisfiable curiosities for finance and software development are the driver for continuous improvement. 
-                                Currently, I am in my final year of study and I will be graduating by the end of December 2019. </p>
+                            <p>I am well-rounded business undergraduate with a strong passion for finance and software development.  
+							Currently, I am in my final year of study and I will be graduating by the end of December 2019.
+                            Aside from my school projects, I love to research on computer security exploitation techniques 
+							and  trading strategies for retail trader.
+								</p>
                                 
                         </div>
                         <div class="col-md-4 text-md-center">
@@ -145,7 +147,7 @@
                     </div>
 
                     <div class="text-center">
-                    <p>Got something for me? Hit me up to discuss more!</p>
+                    <p>Have something for me? Hit me up to discuss more!</p>
                     </div>
                 </div>
             </div>

@@ -307,8 +307,14 @@
       
                     </div>
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary ">Show Me More!</button>
+                        <!--<button class="btn btn-primary ">Show Me More!</button>-->
+						<button type="button" class="btn btn-primary"
+						data-toggle="collapse" data-target="#info">Show Me More!</button>
+						<div id="info" class="collapse">Coming Soon!<br>Stay Tune!
+							
+						</div>
                     </div>
+					
 
                 </div>
             </div>

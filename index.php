@@ -309,9 +309,9 @@
                     <br>
 	
 						<button type="button" class="btn btn-primary d-block mx-auto"
-						data-toggle="collapse" data-target="#info">Collapsible</button>
-						<div id="info" class="collapse text-center">Collapsible behaviour: <br>
-							data-toggle="collapse" data-target="#info"
+						data-toggle="collapse" data-target="#info">Show Me More</button>
+						<div id="info" class="collapse text-center">Coming Soon!<br>
+							Stay Tune!
 						</div>
 
 					<br>

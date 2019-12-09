@@ -109,10 +109,10 @@
                             <img id= "profile-pic"src="./image/profile.jpg" alt="Yudi Alvin" width="200px" height="auto"/>
   
                         </div>
-                        <div class="col-md-4 justify-content-center">
-                            <h3 class="text-md-center text-sm-left">Details</h3>
+                        <div class="col-md-4 ">
+                            <h3 class="text-md-center ">Details</h3>
                          
-                            <table  cellpadding="3" class="ml-2">
+                            <table  cellpadding="3" class=" ml-md-4 ml-sm-6 ">
                                 <tr>
                                     <td><strong>Name: </strong></td>
                                     <td>Yudi Alvin</td>

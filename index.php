@@ -106,7 +106,7 @@
                         </div>
                         <div class="col-md-4 text-md-center">
                     
-                            <img id= "profile-pic" class ="img-fluid max-width: 100% height='auto'" src="./image/profile.jpg" alt="Yudi Alvin" width="200px" />
+                            <img id= "profile-pic"src="./image/profile.jpg" alt="Yudi Alvin" width="200px" height="auto"/>
   
                         </div>
                         <div class="col-md-4 ">

@@ -110,7 +110,7 @@
   
                         </div>
                         <div class="col-md-4 justify-content-center">
-                            <h3 class="text-md-center">Details</h3>
+                            <h3 class="text-md-center text-sm-left">Details</h3>
                          
                             <table  cellpadding="3" class="ml-2">
                                 <tr>

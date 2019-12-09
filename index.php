@@ -112,7 +112,7 @@
                         <div class="col-md-4 ">
                             <h3 class="text-md-center">Details</h3>
                          
-                            <table  cellpadding="3" w-auto table-responsive>
+                            <table  cellpadding="3" class="w-auto table-responsive">
                                 <tr>
                                     <td><strong>Name: </strong></td>
                                     <td>Yudi Alvin</td>

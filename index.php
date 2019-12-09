@@ -112,7 +112,7 @@
                         <div class="col-md-4 ">
                             <h3 class="text-md-center">Details</h3>
                          
-                            <table  cellpadding="auto" class="mx-auto ">
+                            <table  cellpadding="3" class="ml-2">
                                 <tr>
                                     <td><strong>Name: </strong></td>
                                     <td>Yudi Alvin</td>

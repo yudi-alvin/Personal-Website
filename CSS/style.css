@@ -159,14 +159,14 @@ hr { margin: 40px 0px; border-color: black; opacity: 0.8; filter:alpha(opacity=2
 
 }    
  
-@media only screen and (orientation: portrait) and (max-width: 767px)  {
+@media only screen and (orientation: portrait) and (max-width: 800px)  {
 	
 	.jumbotron {
       -webkit-background-size: auto 150%;
       background-attachment: scroll;
     }
 }
-@media only screen and (orientation: landscape) and (max-width: 767px)  {
+@media only screen and (orientation: landscape) and (max-width: 800px)  {
 
     .jumbotron {
       -webkit-background-size: 150% auto;

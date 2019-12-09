@@ -138,10 +138,10 @@ hr { margin: 40px 0px; border-color: black; opacity: 0.8; filter:alpha(opacity=2
 #contact {
 	padding-top:20px;
 }
-@media (max-width: 1050px) {
+@media (max-width: 1080px) {
 	.container {padding: 40px 100px; min-width: 280px;  }
 }
-@media (max-width: 767px) { 
+@media (max-width: 800px) { 
 	.jumbotron:before {
 		bottom: 100px;
 		left: 20px;

@@ -156,7 +156,7 @@ hr { margin: 40px 0px; border-color: black; opacity: 0.8; filter:alpha(opacity=2
 	.hidden-phone { display: none; }
 	
 	.container .row * { text-align: center; }
-	#profile-table {align:center;}
+	.profile-table {align:center;}
 
 }    
  

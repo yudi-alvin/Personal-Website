@@ -162,9 +162,9 @@
                     <div class="row" >
                         
                         <?php
-                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner", "Java"=> "OOP", "C"=>"", "VBA"=>"", "R" =>"Data Cleaning, Data Analysis, Data Visualisation"];
-                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js", "MySQL"=>"Database Management"];
-                        $skills3 =[ "Github"=> "", "Linux"=> "Debugging, Bufferoverflow exploitation "];
+                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner", "Java"=> "OOP", "C"=>"", "VBA"=>"" ];
+                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js"];
+                        $skills3 =["MySQL"=>"Database Management", "R" =>"Data Cleaning, Data Analysis, Data Visualisation", "Github"=> "", "Linux"=> "Debugging, Bufferoverflow exploitation "];
                         $skills = [$skills1, $skills2, $skills3];
                         foreach($skills as $skill){
                             echo"<div class='col-md-4 col-sm-6 col-xs-12'>";

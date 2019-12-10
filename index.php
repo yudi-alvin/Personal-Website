@@ -97,7 +97,7 @@
                     <div class="row">
                         <div class="col-md-4 ">
                             <h3 class="text-md-center">About me</h3>
-                            <p>I am well-rounded business undergraduate with a strong passion for finance and software development.  
+                            <p>I am a well-rounded business undergraduate with a strong passion for finance and software development.  
 							Currently, I am in my final year of study and I will be graduating by the end of December 2019.
                             Aside from my school projects, I love to research on computer security exploitation techniques 
 							and  trading strategies for retail trader.

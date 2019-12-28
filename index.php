@@ -147,7 +147,7 @@
                         <div class="col-md-3">
                             <!-- API to get new -->
                             <div class = "col-md-12 col-sm-6 col-xs-12 shadow " id="news" >
-                                <h5 style="color:black;">News for You:</h5>
+                                <h5 style="color:black;">Breaking News:</h5>
                             </div>
                         </div>
                     </div>

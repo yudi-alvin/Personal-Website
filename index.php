@@ -60,7 +60,7 @@
                 </div>
             </div>
         </nav>
-        <div class="icon-bar">
+        <div class="icon-bar" id="shareButton">
         <?php $myurl= 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
         $shareurl = urlencode($myurl); 
         echo "
@@ -90,66 +90,80 @@
             <!-- profile -->
             <div class="background-profile" id="profile">
                 <div  class="container">
-                    
-                    <h2>Profile</h2>
-                    <p class="lead">Finance and Technology Enthusiast!</p>           
-                    <hr />
                     <div class="row">
-                        <div class="col-md-4 ">
-                            <h3 class="text-md-center">About me</h3>
-                            <p>I am a well-rounded business undergraduate with a strong passion for finance and software development.  
-							Currently, I am in my final year of study and I will be graduating by the end of December 2019.
-                            Aside from my school projects, I love to research on computer security exploitation techniques 
-							and  trading strategies for retail trader.
-								</p>
+                        <div class="col-md-9">
+                            <h2>Profile</h2>
+                            <p class="lead">Finance and Technology Enthusiast!</p>           
+                            <hr />
+                            <div class="row">
+                                <div class="col-md-4 ">
+                                    <h3 class="text-md-center">About me</h3>
+                                    <p>I am a business undergraduate with a strong passion for finance and software development. 
+                                        My unsatisfiable curiosity for knowledge in finance and software development is my driver for keep improving myself. 
+                                        Currently, I am in my final year of study and I will be graduating by the end of December 2019. </p>
+                                        
+                                </div>
+                                <div class="col-md-4 text-md-center">
+                            
+                                    <img id= "profile-pic"src="./image/profile.jpg" alt="Yudi Alvin" width="200px" height="auto"/>
+        
+                                </div>
+                                <div class="col-md-4 ">
+                                    <h3 class="text-md-center">Details</h3>
                                 
+                                    <table  class="mx-auto" >
+                                        <tr>
+                                            <td><strong>Name: </strong></td>
+                                            <td>Yudi Alvin</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Location: </strong></td>
+                                            <td>Singapore</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Highest Education: </strong></td>
+                                            <td>Bachelor of Business Management</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>1st Major:</strong></td>
+                                            <td>Finance</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>2nd Major:</strong></td>
+                                            <td>Information Systems</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>My CV link:</strong></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><a href="./Resume.pdf"><img src="./image/pdf.png"></a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 text-md-center">
-                    
-                            <img id= "profile-pic"src="./image/profile.jpg" alt="Yudi Alvin" width="200px" height="auto"/>
+                        <div class="col-md-3">
+                            <!-- API to get new -->
+                            <div class = "col-md-12 col-sm-6 col-xs-12 shadow " id="news" >
+                                <h5 style="color:black;">News for You:</h5>
+                            </div>
+                        </div>
+                    </div>
+                  
   
-                        </div>
-                        <div class="col-md-4 ">
-                            <h3 class="text-md-center ">Details</h3>
-                         
-                            <table  cellpadding="3" style="align:center;">
-                                <tr>
-                                    <td><strong>Name: </strong></td>
-                                    <td>Yudi Alvin</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Location: </strong></td>
-                                    <td>Singapore</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Highest Education: </strong></td>
-                                    <td>Bachelor of Business Management</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>1st Major:</strong></td>
-                                    <td>Finance</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>2nd Major:</strong></td>
-                                    <td>Information Systems</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>My CV link:</strong></td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td><a href="./Resume.pdf"><img src="./image/pdf.png"></a></td>
-                                </tr>
-                            </table>
-                        </div>
+
     
                     </div>
 
-                    <div class="text-center">
-                    <p>Have something for me? Hit me up to discuss more!</p>
-                    </div>
+  
+
+
                 </div>
+
+
+
             </div>
 
             <div class="background-skills">
@@ -162,8 +176,8 @@
                     <div class="row" >
                         
                         <?php
-                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner", "Java"=> "OOP", "C"=>"", "VBA"=>"" ];
-                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js"];
+                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner", "Java"=> "OOP", "C"=>"", "VBA"=>""];
+                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js", ];
                         $skills3 =["MySQL"=>"Database Management", "R" =>"Data Cleaning, Data Analysis, Data Visualisation", "Github"=> "", "Linux"=> "Debugging, Bufferoverflow exploitation "];
                         $skills = [$skills1, $skills2, $skills3];
                         foreach($skills as $skill){
@@ -199,7 +213,7 @@
                     <h2>Experience</h2>
                     <p class="lead">“If you can't make it good, at least make it look good". – Bill Gates.</p>  
                     <hr />
-                    <div class="row">
+                    <div >
                         <div>
                             <h3 class="text-left">Bank of Montreal (BMO), Private Banking Asia</h3>
                             <h5 class="text-left">Operations Intern | Period : 11 June 2018 - 31 December 2018</h5>
@@ -214,7 +228,7 @@
 
                         </p>
                     </div>
-                    <div class="row">
+                    <div>
                         <div>
                             <h3 class="text-left">SMU Banking and Finance Interest Group (BFIG)</h3>
                             <h5 class="text-left">Finance Director | Period :  August 2016 - August 2017</h5>
@@ -231,7 +245,7 @@
                         
     
                     </div>
-                    <div class="row">
+                    <div >
                         <div>
                             <h3 class="text-left">SMU Assurance and Advisory Team (SAAT)</h3>
                             <h5 class="text-left">Audit Executive Committee | Period :  January 2016 - December 2016</h5>
@@ -315,9 +329,6 @@
 						</div>
 
 					<br>
-                        <!--<button class="btn btn-primary ">Show Me More!</button>-->
-	
-					
 
                 </div>
             </div>

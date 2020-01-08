@@ -10,11 +10,6 @@ window.onload = function getNews(){
           return response.json();
         })
         .then(data => {
-            // Work with JSON data here
-
-            
-
-            
 
             for (const article of data.articles) {
                 //   console.log(article)

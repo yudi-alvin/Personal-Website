@@ -356,13 +356,15 @@
                         </table>
                     </div>
                     <div class="col-4 d-flex-nowrap">
-						<!-- Start of SimpleHitCounter Code -->
-						<p>web Counter:</p>
-						<a href="http://www.simplehitcounter.com" target="_blank">
-						<img src="http://simplehitcounter.com/hit.php?uid=0&f=16777215&b=224" border="0" height="18" width="83" alt="web counter">
-						</a><br>
 						
+						<p>Web Counter:</p>
+
+						<!-- Start of SimpleHitCounter Code -->
+						<a href="http://www.simplehitcounter.com" target="_blank">
+						<img src="http://simplehitcounter.com/hit.php?uid=0&f=255&b=0" border="0" height="18" width="83" alt="web counter">
+						</a>
 						<!-- End of SimpleHitCounter Code -->
+
 
                     </div>
                     <div class="col-4 d-flex-nowrap">

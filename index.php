@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="./CSS/style.css" rel="stylesheet" />
-    <script src='./JS/jscode.js'></script>
+    
     </head>
 	<body data-spy="scroll" data-target="#navbarSupportedContent">	 
  
@@ -398,7 +398,7 @@
 
 		
 
-
+	<script src='./JS/jscode.js'></script>
     </body>
 
 </html>

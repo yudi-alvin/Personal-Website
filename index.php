@@ -356,7 +356,7 @@
                         </table>
                     </div>
                     <div class="col-3 d-flex-nowrap"  >
-						
+						 <a href='https://www.symptoma.es/'></a> 
 						<script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
 						<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>
 

@@ -339,7 +339,7 @@
                     <h2 style="color: black;"><b>Contact </b></h2>
                 </div>
                 <div class="row flex-nowrap align-items-center " >
-                    <div class="col-5">
+                    <div class="col-4">
                         <table >
                             <tr>
                                 <td><img src="./image/phone.png" width= "36px"></td>
@@ -355,9 +355,18 @@
                                 </tr>
                         </table>
                     </div>
-                    <div class="col-2 d-flex-nowrap">
+                    <div class="col-4 d-flex-nowrap">
+						<!-- Start of SimpleHitCounter Code -->
+						<div align="center">
+						<a href="http://www.simplehitcounter.com" target="_blank">
+						<img src="http://simplehitcounter.com/hit.php?uid=0&f=16777215&b=224" border="0" height="18" width="83" alt="web counter">
+						</a><br>
+						<a href="http://www.simplehitcounter.com" target="_blank" style="text-decoration:none;">web counter</a>
+						</div>
+						<!-- End of SimpleHitCounter Code -->
+
                     </div>
-                    <div class="col-5 d-flex-nowrap">
+                    <div class="col-4 d-flex-nowrap">
                         <div class=" d-flex justify-content-center">
                             <h5 style="color:black; "> <u>Follow My Youtube Channel Here!</u></h5>
                         </div>

@@ -355,15 +355,16 @@
                                 </tr>
                         </table>
                     </div>
-                    <div class="col-3 d-flex-nowrap" align="right" >
+                    <div class="col-4 d-flex-nowrap" align="center" >
 						
 						<script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
 						<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>
 
                     </div>
-                    <div class="col-5 d-flex-nowrap">
+                    <div class="col-4 d-flex-nowrap">
                         <div class=" d-flex justify-content-center">
-                            <h5 style="color:black; "> <u>Follow My Youtube Channel Here!</u></h5>
+                            <h5 style="color:black; "> <u>Follow My Youtube Channel Here!</u></h5><br>
+							<h5 style="color:black; "> <u>Channel Here!</u></h5>
                         </div>
                         <div class=" d-flex justify-content-center">
                         <table >

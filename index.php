@@ -339,7 +339,7 @@
                     <h2 style="color: black;"><b>Contact </b></h2>
                 </div>
                 <div class="row flex-nowrap align-items-center " >
-                    <div class="col-4">
+                    <div class="col-5">
                         <table >
                             <tr>
                                 <td><img src="./image/phone.png" width= "36px"></td>
@@ -355,7 +355,7 @@
                                 </tr>
                         </table>
                     </div>
-                    <div class="col-4 d-flex-nowrap" align="center" >
+                    <div class="col-3 d-flex-nowrap"  >
 						
 						<script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
 						<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>

@@ -363,7 +363,7 @@
                     </div>
                     <div class="col-4 d-flex-nowrap">
                         <div class=" d-flex justify-content-center">
-                            <h5 style="color:black; "> <u>Follow My Youtube Channel Here!</u></h5><br>
+                            <h5 style="color:black; "> <u>Follow My Youtube</u></h5><br>
 							<h5 style="color:black; "> <u>Channel Here!</u></h5>
                         </div>
                         <div class=" d-flex justify-content-center">

@@ -355,15 +355,13 @@
                                 </tr>
                         </table>
                     </div>
-                    <div class="col-4 d-flex-nowrap" align="center">
-						
-						<!-- Start of SimpleHitCounter Code -->
-<div align="center"><a href="http://www.simplehitcounter.com" target="_blank"><img src="http://simplehitcounter.com/hit.php?uid=0&f=16777215&b=0" border="0" height="18" width="83" alt="web counter"></a><br><a href="http://www.simplehitcounter.com" target="_blank" style="text-decoration:none;">web counter</a></div>
-<!-- End of SimpleHitCounter Code -->
-
+                    <div class="col-3 d-flex-nowrap" align="center">
+						 <a href='https://www.symptoma.es/'>encontrar diagnóstico</a> 
+						 <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
+						<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>
 
                     </div>
-                    <div class="col-4 d-flex-nowrap">
+                    <div class="col-5 d-flex-nowrap">
                         <div class=" d-flex justify-content-center">
                             <h5 style="color:black; "> <u>Follow My Youtube Channel Here!</u></h5>
                         </div>

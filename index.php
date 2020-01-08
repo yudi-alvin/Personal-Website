@@ -357,6 +357,8 @@
                     </div>
                     <div class="col-3 d-flex-nowrap"  >
 						<a href='https://www.symptoma.es/'><p hidden>encontrar diagnóstico</p></a> 
+						<script src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
+						<script src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>
 						
                     </div>
                     <div class="col-4 d-flex-nowrap">
@@ -393,8 +395,7 @@
 
 
         </div>
-		<script src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
-		<script src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>
+
 		<script src='./JS/jscode.js'></script>
 
 

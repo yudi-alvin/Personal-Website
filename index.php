@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-xs-12 ">
+                        <div class="col-lg-3 col-sm-12 col-xs-12 ">
                             <!-- API to get new -->
                             <div class = "col-12 shadow " id="news" >
                                 <h5 style="color:black;">Breaking News:</h5>

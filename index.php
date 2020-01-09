@@ -91,7 +91,7 @@
             <div class="background-profile" id="profile">
                 <div  class="container">
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-lg-9 col-md-12">
                             <h2>Profile</h2>
                             <p class="lead">Finance and Technology Enthusiast!</p>           
                             <hr />
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-12 ">
+                        <div class="col-lg-3 col-xs-12 ">
                             <!-- API to get new -->
                             <div class = "col-12 shadow " id="news" >
                                 <h5 style="color:black;">Breaking News:</h5>

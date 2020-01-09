@@ -198,9 +198,10 @@ hr { margin: 40px 0px; border-color: black; opacity: 0.8; filter:alpha(opacity=2
 }
 
 /* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
-	.container{padding: 60px 60px; }
+@media screen and (max-device-width: 767px) and (orientation: portrait){
+	.container{padding: 60px 60px;padding-right: 30px; }
   }
+  
   
 /* #### Tablets Portrait or Landscape #### */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px){

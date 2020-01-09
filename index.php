@@ -338,7 +338,7 @@
                 <div class="d-flex justify-content-center" >
                     <h2 style="color: black;"><b>Contact </b></h2>
                 </div>
-                <div class="row flex-nowrap align-items-center " >
+                <div class="row align-items-center " >
                     <div class="col-5">
                         <table >
                             <tr>
@@ -355,13 +355,13 @@
                                 </tr>
                         </table>
                     </div>
-                    <div class="col-3 d-flex-nowrap"  >
+                    <div class="col-3 "  >
 						<a href='https://www.symptoma.es/'><p hidden>encontrar diagnóstico</p></a> 
 						<script src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
 						<script src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>
 						
                     </div>
-                    <div class="col-4 d-flex-nowrap">
+                    <div class="col-4 ">
                         <div class=" d-flex justify-content-center">
                             <h5 style="color:black; "> <u>Follow My Youtube<br> Channel Here!</u></h5><br>
 							

@@ -160,7 +160,7 @@ hr { margin: 40px 0px; border-color: black; opacity: 0.8; filter:alpha(opacity=2
 #contact {
 	padding-top:20px;
 }
-
+/* Change padding size for mobile device */
 @media (max-width: 767px) { 
 	.jumbotron:before {
 		bottom: 100px;
@@ -176,7 +176,7 @@ hr { margin: 40px 0px; border-color: black; opacity: 0.8; filter:alpha(opacity=2
 	.hidden-phone { display: none; }
 	
 	.container .row * { text-align: center; }
-	#shareButton{display:none;}
+	/* #shareButton{display:none;} */
 
 }    
 
@@ -196,6 +196,42 @@ hr { margin: 40px 0px; border-color: black; opacity: 0.8; filter:alpha(opacity=2
 	
 	.jumbotron .lead { display: none; }
 }
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+	.container{padding: 60px 60px; }
+  }
+  
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	.container{padding: 60px 60px; }
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+/* some CSS here */
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+/* some CSS here */
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+/* some CSS here */
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+/* some CSS here */
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+/* some CSS here */
+}
+
 /* Social Sharing buttons */
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {

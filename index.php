@@ -1,6 +1,6 @@
 <html lang="en">
 <meta charset="utf-8">
-   
+<meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 	<head>
     <title>Yudi Alvin</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
@@ -98,9 +98,9 @@
                             <div class="row">
                                 <div class="col-md-4 ">
                                     <h3 class="text-md-center">About me</h3>
-                                    <p>I am a business undergraduate with a strong passion for finance and software development. 
-                                        My unsatisfiable curiosity for knowledge in finance and software development is my driver for keep improving myself. 
-                                        Currently, I am in my final year of study and I will be graduating by the end of December 2019. </p>
+                                    <p>I am a business graduate with a strong passion for finance and software development. 
+                                        My unsatisfiable curiosity for knowledge in finance and software development is my driver for continuous improvement. 
+                                        </p>
                                         
                                 </div>
                                 <div class="col-md-4 text-md-center">

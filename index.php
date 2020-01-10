@@ -176,8 +176,8 @@
                     <div class="row" >
                         
                         <?php
-                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner", "Java"=> "OOP", "C"=>"", "VBA"=>""];
-                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js", ];
+                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner, Matplot", "Java"=> "OOP", "C"=>"", "VBA"=>""];
+                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js, AJAX", ];
                         $skills3 =["MySQL"=>"Database Management", "R" =>"Data Cleaning, Data Analysis, Data Visualisation", "Github"=> "", "Linux"=> "Debugging, Bufferoverflow exploitation "];
                         $skills = [$skills1, $skills2, $skills3];
                         foreach($skills as $skill){

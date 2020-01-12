@@ -177,21 +177,7 @@
 
                     },
                     checkGameStatus: function(){
-                        if (this.blessing){
-                            this.message = "<p class='lead'>You received god blessing! Heal point + 1</p>" +this.message;
-                            this.healCount+=1;
-                            this.blessing= false;
-                        }
-                        if (this.playerHealth>0 && this.playerHealth <10){
-                            this.message ="<p class='lead'> Hidden power unleashed!</p>" +this.message;
-                            this.message ="<p class='lead'> Power Up by 20 points.</p>" +this.message;
-                            this.playerPower += 20;
-                        }
-                        if (this.monsterHealth>0 && this.monsterHealth <10){
-                            this.message ="<p class='lead'> Monster went Berserk!</p>" + this.message;
-                            this.playerHealth -= 50;
-                        }
-                        this.round += 1
+                        
                         
                         if (this.playerHealth <=0 && this.monsterHealth <=0) {
                             this.message = "<p class='lead'> Both you and the monster died. Game over!<br>" +this.message;
@@ -209,10 +195,26 @@
                             return;
 
                         }
+						if (this.blessing){
+                            this.message = "<p class='lead'>You received god blessing! Heal point + 1</p>" +this.message;
+                            this.healCount+=1;
+                            this.blessing= false;
+                        }
+                        if (this.playerHealth>0 && this.playerHealth <10){
+                            this.message ="<p class='lead'> Hidden power unleashed!</p>" +this.message;
+                            this.message ="<p class='lead'> Power Up by 20 points.</p>" +this.message;
+                            this.playerPower += 20;
+                        }
+                        if (this.monsterHealth>0 && this.monsterHealth <10){
+                            this.message ="<p class='lead'> Monster went Berserk!</p>" + this.message;
+                            this.playerHealth -= 50;
+                        }
+                        this.round += 1
                         if (this.round%10 == 0){
                             this.specialAttackCount += 1;
                             this.message = "<p style='color:orange'> <b>you recovered one special attack point.</b></p>" + this.message;
                         }
+						
  
                     },
 

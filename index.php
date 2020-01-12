@@ -325,11 +325,11 @@
 						<div class="col-lg-6 text-center d-flex justify-content-center">
                             <div class="card" style="width: 30rem;">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="./image/$projectSample1.png" allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item" src="./image/projectSample1.png" allowfullscreen></iframe>
                                 </div>
                                
                                 <div class="card-body">
-                                    <h3 class="card-title">Web Design Sample Project 1</h3>
+                                    <h3 class="card-title">Web Design Sample<br> Project 1</h3>
                                     <p class="card-text text-left">A simple website game created using vue.js</p>
                                     <a href="https://yudi-alvin-kho.herokuapp.com/ProjectSamples/projectSample1.php" class="btn btn-primary">Link</a>
                                 </div>

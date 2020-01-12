@@ -359,7 +359,7 @@
 						<!--<a href='https://www.symptoma.es/'><p hidden>encontrar diagnóstico</p></a> 
 						<script src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
 						<script src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>-->
-						<a href="https://www.hitwebcounter.com" target="_blank">
+						<h6>Visitors counter:</h6><br><a href="https://www.hitwebcounter.com" target="_blank">
 <img src="https://hitwebcounter.com/counter/counter.php?page=7180452&style=0006&nbdigits=5&type=page&initCount=128" title="Total Visits" Alt=" counter Visits"   border="0" >
 </a>      
 						

@@ -303,7 +303,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">Movie Rating Prediction</h3>
                                     <p class="card-text text-left">This project used R programming language to extract large users' movie ratings from grouplens and
-                                        incorporated the big data to train the algorithm for better movie rating prediction system.</p>
+                                        incorporated the machine learning to train the algorithm for better movie rating prediction system.</p>
                                     <a href="https://github.com/yudi-alvin/Movie-Rating-Prediction" class="btn btn-primary">Github</a>
                                 </div>
                             </div>
@@ -328,8 +328,10 @@
 								<img src="./image/projectSample1.png" class="card-img-top" alt="Image cap">
                                
                                 <div class="card-body">
-                                    <h3 class="card-title">Web Design Sample<br> Project 1</h3>
-                                    <p class="card-text text-left">A simple website game created using vue.js</p>
+                                    <h3 class="card-title">Website Design Sample<br> Project 1</h3>
+                                    <p class="card-text text-left">This project works the usage of vue.js to create a simple interactive website game. 
+									The main purpose is to showcase the understanding of vue.js framework in web design.
+									</p>
                                     <a href="https://yudi-alvin-kho.herokuapp.com/ProjectSamples/projectSample1.php" class="btn btn-primary">Link</a>
                                 </div>
                             </div>

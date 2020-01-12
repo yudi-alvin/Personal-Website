@@ -324,9 +324,8 @@
 					<div class="row">
 						<div class="col-lg-6 text-center d-flex justify-content-center">
                             <div class="card" style="width: 30rem;">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="./image/projectSample1.png" allowfullscreen></iframe>
-                                </div>
+                                
+								<img src="./image/projectSample1.png" class="card-img-top" alt="Image cap">
                                
                                 <div class="card-body">
                                     <h3 class="card-title">Web Design Sample<br> Project 1</h3>

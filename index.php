@@ -268,7 +268,7 @@
                     <h2>Project Highlight</h2>
                     <hr />
                     <div class="row">
-                        <div class="col-lg-6 text-center d-flex justify-content-center">
+                        <div class="col-lg-4 text-center d-flex justify-content-center">
                             <div class="card" style="width: 30rem;">
                                 <div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/btaD3NKaLhw" allowfullscreen></iframe>
@@ -281,7 +281,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 text-center d-flex justify-content-center">
+                        <div class="col-lg-4 text-center d-flex justify-content-center">
                             <div class="card" style="width: 30rem;">
                                 <div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9mS8jz-kY2o" allowfullscreen></iframe>
@@ -294,9 +294,22 @@
                                 </div>
                             </div>
                         </div>
+						<div class="col-lg-4 text-center d-flex justify-content-center">
+                            <div class="card" style="width: 30rem;">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9mS8jz-kY2o" allowfullscreen></iframe>
+                                </div>
+                               
+                                <div class="card-body">
+                                    <h3 class="card-title">Web Design Sample Project 1</h3>
+                                    <p class="card-text text-left">A stimple website game created using vue.js</p>
+                                    <a href="https://yudi-alvin-kho.herokuapp.com/ProjectSamples/projectSample1.php" class="btn btn-primary">Link</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-6 text-center d-flex justify-content-center">
+                        <div class="col-lg-4 text-center d-flex justify-content-center">
                             <div class="card" style="width: 30rem;">
                                 <img src="./image/trading.jpg" class="card-img-top" alt="Image cap">
                                 <div class="card-body">
@@ -307,7 +320,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 text-center d-flex justify-content-center">
+                        <div class="col-lg-4 text-center d-flex justify-content-center">
                             <div class="card" style="width: 30rem;">
                                 <img src="./image/trading.jpg" class="card-img-top" alt="Image cap">
                                 <div class="card-body">

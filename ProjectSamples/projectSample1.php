@@ -180,16 +180,20 @@
                         
                         
                         if (this.playerHealth <=0 && this.monsterHealth <=0) {
+							this.playerHealth=0;
+							this.monsterHealth=0;
                             this.message = "<p class='lead'> Both you and the monster died. Game over!<br>" +this.message;
                             this.gameStatus= false;
                             return;
 
                         }else if(this.playerHealth <=0){
+							this.playerHealth = 0;
                             this.message= "<p class='lead'>Too bad, you died, you lost the game!</p><br>" + this.message;
                             this.gameStatus= false;
                             return;
 
                         }else if(this.monsterHealth <=0){
+							this.monsterHealth=0;
                             this.message = "<p class='lead'>Congratulations! You won the game.</p><br>" + this.message;
                             this.gameStatus= false;
                             return;

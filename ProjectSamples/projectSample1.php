@@ -134,12 +134,12 @@
                     specialAttack: function(){
 
                         if (this.specialAttackCount>0){
-                            var damage = Math.floor(Math.random() * this.monsterPower);
-                            this.playerHealth = this.playerHealth -damage;
+							var damage = Math.floor(Math.random() * this.playerPower) + this.playerPower;
+                            this.monsterHealth = this.monsterHealth -damage;
                             this.message = "You used special attack and monster suffered " + damage + " points<br>" + this.message;
 
-                            damage = Math.floor(Math.random() * this.playerPower) + this.playerPower;
-                            this.monsterHealth = this.monsterHealth -damage;
+                            damage = Math.floor(Math.random() * this.monsterPower);
+                            this.playerHealth = this.playerHealth -damage;
                             this.message = "Monster attacked and you suffered " + damage + " points<br>" +this.message;
 
                             this.specialAttackCount -= 1;

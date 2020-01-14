@@ -210,7 +210,7 @@
                             this.playerPower += 20;
                         }
                         if (this.monsterHealth>0 && this.monsterHealth <10){
-                            this.message ="<p class='lead'> Monster went Berserk!</p>" + this.message;
+                            this.message ="<p class='lead'> Monster went Berserk!</p><br> you suffered extra damage: 50 health points." + this.message;
                             this.playerHealth -= 50;
                         }
                         this.round += 1

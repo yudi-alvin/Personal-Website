@@ -82,4 +82,5 @@
                 </div>
             </div>
 			<iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=1cad20a1-07d9-43f9-832a-fb52d27b9f37&autoAuth=true&ctid=6d09a68c-8cf0-401b-ab64-a95022dfe824&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWVhc3QtYXNpYS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+			<script type='text/javascript' src='https://prod-apnortheast-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1280px; height: 670px;'><object class='tableauViz' width='1280' height='670' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-apnortheast-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;yudialvin' /><param name='name' value='Superstore_15838083823690&#47;Customers' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
     </body>

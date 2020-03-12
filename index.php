@@ -39,7 +39,7 @@
                             <a class="nav-link" href="./credentials.php">Credentials</a>
                         </li>
 						<li class="nav-item">
-                            <a class="nav-link" href="./PowerBI.php">POWERBI</a>
+                            <a class="nav-link" href="./powerBI.php">POWERBI</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>

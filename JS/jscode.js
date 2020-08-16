@@ -1,5 +1,5 @@
 window.onload = function getNews(){
-    var url = 'https://api.nytimes.com/svc/topstories/v2/business.json?api-key=iyPufy3lNyeSVdDTLm1iuVqv0s7mRBxC?'
+    var url = 'https://api.nytimes.com/svc/topstories/v2/business.json?api-key=iyPufy3lNyeSVdDTLm1iuVqv0s7mRBxC'
     var req = new Request(url);
 
 

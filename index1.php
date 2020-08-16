@@ -1,40 +1,6 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@yudi-alvin 
-yudi-alvin
-/
-Personal-Website
-1
-10
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Personal-Website/index.php /
-@yudi-alvin
-yudi-alvin changing the title of the news section
-Latest commit 5f83e67 on Dec 28, 2019
- History
- 1 contributor
-397 lines (338 sloc)  22.6 KB
-  
-Code navigation is available!
-Navigate your code with ease. Click on function and method calls to jump to their definitions or references in the same repository. Learn more
-
 <html lang="en">
 <meta charset="utf-8">
-   
+<meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 	<head>
     <title>Yudi Alvin</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
@@ -45,7 +11,7 @@ Navigate your code with ease. Click on function and method calls to jump to thei
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="./CSS/style.css" rel="stylesheet" />
-    <script src='./JS/jscode.js'></script>
+    
     </head>
 	<body data-spy="scroll" data-target="#navbarSupportedContent">	 
  
@@ -71,6 +37,9 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./credentials.php">Credentials</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="./dataViz.php">Data Viz</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -125,16 +94,16 @@ Navigate your code with ease. Click on function and method calls to jump to thei
             <div class="background-profile" id="profile">
                 <div  class="container">
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-lg-9 col-md-12">
                             <h2>Profile</h2>
                             <p class="lead">Finance and Technology Enthusiast!</p>           
                             <hr />
                             <div class="row">
                                 <div class="col-md-4 ">
                                     <h3 class="text-md-center">About me</h3>
-                                    <p>I am a business undergraduate with a strong passion for finance and software development. 
-                                        My unsatisfiable curiosity for knowledge in finance and software development is my driver for keep improving myself. 
-                                        Currently, I am in my final year of study and I will be graduating by the end of December 2019. </p>
+                                    <p>I am a business graduate with a strong passion for finance and software development. 
+                                        My unsatisfiable curiosity for knowledge in finance and software development is my driver for continuous improvement. 
+                                        </p>
                                         
                                 </div>
                                 <div class="col-md-4 text-md-center">
@@ -178,9 +147,9 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-12 col-xs-12 ">
                             <!-- API to get new -->
-                            <div class = "col-md-12 col-sm-6 col-xs-12 shadow " id="news" >
+                            <div class = "col-12 shadow " id="news" >
                                 <h5 style="color:black;">Breaking News:</h5>
                             </div>
                         </div>
@@ -210,8 +179,8 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                     <div class="row" >
                         
                         <?php
-                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner", "Java"=> "OOP", "C"=>"", "VBA"=>""];
-                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js", ];
+                        $skills1 =["Python"=> "OOP, Pandas, Numpy, QtDesigner, Matplot", "Java"=> "OOP", "C"=>"", "VBA"=>""];
+                        $skills2 =["HTML"=> "", "CSS"=> "Bootstrap", "PHP" =>"", "Javascript"=>"Vue.js, AJAX", ];
                         $skills3 =["MySQL"=>"Database Management", "R" =>"Data Cleaning, Data Analysis, Data Visualisation", "Github"=> "", "Linux"=> "Debugging, Bufferoverflow exploitation "];
                         $skills = [$skills1, $skills2, $skills3];
                         foreach($skills as $skill){
@@ -328,6 +297,7 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                                 </div>
                             </div>
                         </div>
+						
                     </div>
                     <div class="row">
                         <div class="col-lg-6 text-center d-flex justify-content-center">
@@ -336,7 +306,7 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                                 <div class="card-body">
                                     <h3 class="card-title">Movie Rating Prediction</h3>
                                     <p class="card-text text-left">This project used R programming language to extract large users' movie ratings from grouplens and
-                                        incorporated the big data to train the algorithm for better movie rating prediction system.</p>
+                                        incorporated the machine learning to train the algorithm for better movie rating prediction system.</p>
                                     <a href="https://github.com/yudi-alvin/Movie-Rating-Prediction" class="btn btn-primary">Github</a>
                                 </div>
                             </div>
@@ -352,6 +322,24 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                                 </div>
                             </div>
                         </div>
+      
+                    </div>
+					<div class="row">
+						<div class="col-lg-6 text-center d-flex justify-content-center">
+                            <div class="card" style="width: 30rem;">
+                                
+								<img src="./image/projectSample1.png" class="card-img-top" alt="Image cap">
+                               
+                                <div class="card-body">
+                                    <h3 class="card-title">Website Design Sample<br> Project 1</h3>
+                                    <p class="card-text text-left">This project works the usage of vue.js to create a simple interactive website game. 
+									The main purpose is to showcase the understanding of vue.js framework in web design.
+									</p>
+                                    <a href="https://yudi-alvin-kho.herokuapp.com/ProjectSamples/projectSample1.php" class="btn btn-primary">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                      
       
                     </div>
                     <br>
@@ -372,8 +360,8 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                 <div class="d-flex justify-content-center" >
                     <h2 style="color: black;"><b>Contact </b></h2>
                 </div>
-                <div class="row flex-nowrap align-items-center " >
-                    <div class="col-5">
+                <div class="row align-items-center " >
+                    <div class="col-md-5 col-xs-12">
                         <table >
                             <tr>
                                 <td><img src="./image/phone.png" width= "36px"></td>
@@ -389,11 +377,19 @@ Navigate your code with ease. Click on function and method calls to jump to thei
                                 </tr>
                         </table>
                     </div>
-                    <div class="col-2 d-flex-nowrap">
+                    <div class="col-md-3 col-xs-12 "  >
+						<!--<a href='https://www.symptoma.es/'><p hidden>encontrar diagnóstico</p></a> 
+						<script src='https://www.freevisitorcounters.com/auth.php?id=ea4e7e0f87df5b73e16de7fcabe2c98f171aadef'></script>
+						<script src="https://www.freevisitorcounters.com/en/home/counter/622129/t/2"></script>-->
+						<h6>Web Counter:</h6><a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7180452&style=0006&nbdigits=5&type=page&initCount=128" title="Total Visits" Alt=" counter Visits"   border="0" >
+</a>      
+						
                     </div>
-                    <div class="col-5 d-flex-nowrap">
+                    <div class="col-md-4 col-xs-12 ">
                         <div class=" d-flex justify-content-center">
-                            <h5 style="color:black; "> <u>Follow My Youtube Channel Here!</u></h5>
+                            <h5 style="color:black; "> <u>Follow My Youtube<br> Channel Here!</u></h5><br>
+							
                         </div>
                         <div class=" d-flex justify-content-center">
                         <table >
@@ -425,19 +421,9 @@ Navigate your code with ease. Click on function and method calls to jump to thei
 
         </div>
 
+		
 
+	<script src='./JS/jscode.js'></script>
     </body>
 
 </html>
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

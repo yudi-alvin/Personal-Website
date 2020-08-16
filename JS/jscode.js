@@ -1,6 +1,5 @@
 window.onload = function getNews(){
-    var url = 'https://gnews.io/api/v3/top-news?' +
-          'token=be59f8794e870d74155d47f21e3c967c';
+    var url = 'https://api.nytimes.com/svc/topstories/v2/business.json?api-key=iyPufy3lNyeSVdDTLm1iuVqv0s7mRBxC?'
     var req = new Request(url);
 
 
@@ -9,7 +8,7 @@ window.onload = function getNews(){
           return response.json();
         })
         .then(data => {
-            for (const article of data.articles) {
+            for (const article of data.results) {
                 //   console.log(article)
                 // let title = article.title;
                 // let author = article.author;
@@ -25,7 +24,7 @@ window.onload = function getNews(){
                 let a = document.createElement("a");
                 a.setAttribute("class", "class-item-thumbnail");
                 let i = document.createElement("img");
-                i.setAttribute("src", article.urlToImage);
+                i.setAttribute("src", article.multimedia[0].url);
                 
                 a.appendChild(i);
     
@@ -36,7 +35,7 @@ window.onload = function getNews(){
                 title.setAttribute("href", article.url);
                 let desc = document.createElement("p");
                 desc.style.fontSize="10px";
-                desc.innerHTML=article.description;
+                desc.innerHTML=article.abstract;
                 d.appendChild(title);
                 d.appendChild(desc);
     

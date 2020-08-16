@@ -1,7 +1,6 @@
 window.onload = function getNews(){
-    var url = 'https://newsapi.org/v2/top-headlines?' +
-          'sources=bbc-news&' +
-          '73779a2eb2dd43b2bfa2bb692e56e9dc';
+    var url = 'https://gnews.io/api/v3/top-news?' +
+          'token=be59f8794e870d74155d47f21e3c967c';
     var req = new Request(url);
 
 

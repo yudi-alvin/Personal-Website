@@ -6,11 +6,9 @@ window.onload = function getNews(){
 
     fetch(req)
         .then(response => {
-            console.log("1");
           return response.json();
         })
         .then(data => {
-            console.log("2");
             for (const article of data.articles) {
                 //   console.log(article)
                 // let title = article.title;

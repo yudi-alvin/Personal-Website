@@ -1,16 +1,17 @@
 window.onload = function getNews(){
     var url = 'https://newsapi.org/v2/top-headlines?' +
           'sources=bbc-news&' +
-          'apiKey=a0496cb0b6d4480babd2b7bbc9eac804';
+          '73779a2eb2dd43b2bfa2bb692e56e9dc';
     var req = new Request(url);
 
 
     fetch(req)
         .then(response => {
+            console.log("1");
           return response.json();
         })
         .then(data => {
-
+            console.log("2");
             for (const article of data.articles) {
                 //   console.log(article)
                 // let title = article.title;

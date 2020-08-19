@@ -38,24 +38,21 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./credentials.php">Credentials</a>
                         </li>
-						<li class="nav-item">
-                            <a class="nav-link" href="./dataViz.php">Data Viz</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <!-- with dropdown-->
-                        <!-- <li class="nav-item dropdown">
+                        <<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Something fun!
+								Others
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+								<a class="dropdown-item" href="./dataViz.php">Tableau</a>
+								<a class="dropdown-item" href="./covid.php">Covid Statistics</a>
+								<!--<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>-->
                             </div>
-                        </li> -->
+                        </li> 
 
             
                     </ul>
@@ -158,7 +155,7 @@
   
 
     
-                    </div>
+                    
 
   
 

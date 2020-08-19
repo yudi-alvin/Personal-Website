@@ -109,8 +109,8 @@
 					if($count %2 ==0){
 						echo"<div class='row'>";
 					}
-					echo"<div class='col-md-6 col-xs-12 text-center d-flex justify-content-center'>
-						<div id=$countryID  class='mx-auto' ></div>
+					echo"<div class='col-md-6 col-xs-12 text-center d-flex justify-content-center' id='visualization_wrap'>
+						<div id='visualization><div id=$countryID  class='mx-auto' ></div></div>
 					</div><br>";
 					if($count %2 !=0){
 						echo"</div><br>";
@@ -142,8 +142,8 @@
             var data = new google.visualization.arrayToDataTable(dailyCases,false);
             var options = {
             title: cName+' Daily New Cases',
-            width: 100%,
-            height: 100%,
+            width: 300,
+            height: 400,
 			backgroundColor: '#9b2c2b',
             legend: { position: 'none' },
             chart: { title: cName +' Covid Cases',

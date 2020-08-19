@@ -144,7 +144,6 @@
             title: cName+' Daily New Cases',
             width: 300,
             height: 400,
-			backgroundColor: '#9b2c2b',
             legend: { position: 'none' },
             chart: { title: cName +' Covid Cases',
                     subtitle: 'Daily New Cases' },

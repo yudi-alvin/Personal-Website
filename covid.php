@@ -110,7 +110,7 @@
 						echo"<div class='row'>";
 					}
 					echo"<div class='col-md-6 col-xs-12 text-center d-flex justify-content-center'>
-						<div id=$countryID style='width: 600px; height: 400px;'></div>
+						<div id=$countryID style='width: 600px; height: 400px;' class='mx-auto' ></div>
 					</div>";
 					if($count %2 !=0){
 						echo"</div><br>";

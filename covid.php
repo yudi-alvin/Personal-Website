@@ -110,7 +110,7 @@
 						echo"<div class='row'>";
 					}
 					echo"<div class='col-md-6 col-xs-12 text-center d-flex justify-content-center'>
-						<div id=$countryID  class='img-fluid mx-auto' ></div>
+						<div id=$countryID  class='mx-auto' ></div>
 					</div><br>";
 					if($count %2 !=0){
 						echo"</div><br>";

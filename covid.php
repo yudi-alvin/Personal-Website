@@ -17,25 +17,15 @@
  
         <nav id="navbar-top" class="navbar  navbar-expand-lg navbar-dark fixed-top" > <!--navbar-dark for dark bg-->
             <div class="container-fluid">
-                <a class="navbar-brand d-flex align-items-center" href="#">Personal Profile</a>
+                <a class="navbar-brand d-flex align-items-center" href="index.php">Personal Profile</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse font-weight-bold w-100" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item ">
-                            <a class="nav-link " href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link " href="index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#profile">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#project">Project</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="./credentials.php">Credentials</a>
                         </li>
 						<li class="nav-item">
@@ -119,11 +109,11 @@
 					if($count %2 ==0){
 						echo"<div class='row'>";
 					}
-					echo"<div class='col-md-6 col-xm-12 text-center d-flex justify-content-center'>
+					echo"<div class='col-md-6 col-xs-12 text-center d-flex justify-content-center'>
 						<div id=$countryID style='width: 600px; height: 400px;'></div>
 					</div>";
 					if($count %2 !=0){
-						echo"</div>";
+						echo"</div><br>";
 					}
 					$count++;
 				}

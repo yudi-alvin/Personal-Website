@@ -67,7 +67,7 @@
 						$count=0;
                         foreach($credentials as $cr=>$description){
 							$url = $links[$count];
-                            echo"<div class="row" >
+                            echo"<div class='row' >
 									<div class='col'>
 
                                     <div class='class-item d-flex align-items-center '>

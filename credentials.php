@@ -61,9 +61,12 @@
                     <div class="row" >
                         
                         <?php
-                        $credentials =["Professional Certificate for Data Science"=> "Basic R, Visualisation, Probability, Inference and Mode, Productivity Tools, Wrangling, Linear Regression, Machine Learning"];
-
+                        $credentials =["Professional Certificate for Data Science"=> "Basic R, Visualisation, Probability, Inference and Mode, Productivity Tools, Wrangling, Linear Regression, Machine Learning"
+						,"Bachelor of Business Management"=>"Major in Information Systems and Finance"];
+						$links=["https://bit.ly/2YoJa3W","./Credentials/Degree Certificate.pdf"];
+						$count=0;
                         foreach($credentials as $cr=>$description){
+							$url = $links[$count];
                             echo"<div class='col'>
 
                                     <div class='class-item d-flex align-items-center '>
@@ -71,7 +74,7 @@
                                             <img src='./image/$cr.png'>
                                         </a>
                                         <div class='class-item-text'>
-                                            <h3 class='mb-0'><a href='https://bit.ly/2YoJa3W'>$cr (Harvard Online)</h3>
+                                            <h3 class='mb-0'><a href=$url>$cr (Harvard Online)</h3>
                                         <span>$description</span></div>
                                         </div>
                                 </div>";

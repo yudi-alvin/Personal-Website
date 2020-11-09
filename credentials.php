@@ -61,9 +61,9 @@
                     
                         
                         <?php
-                        $credentials =["Professional Certificate for Data Science (Harvard Online)"=> "Basic R, Visualisation, Probability, Inference and Mode, Productivity Tools, Wrangling, Linear Regression, Machine Learning"
-						,"Bachelor of Business Management"=>"Major in Information Systems and Finance"];
-						$links=["https://bit.ly/2YoJa3W","./Credentials/Degree%20Certificate.pdf"];
+                        $credentials =["Bachelor of Business Management"=>"Major in Information Systems and Finance",
+						"Professional Certificate for Data Science (Harvard Online)"=> "Basic R, Visualisation, Probability, Inference and Mode, Productivity Tools, Wrangling, Linear Regression, Machine Learning"];
+						$links=["./Credentials/Degree%20Certificate.pdf","https://bit.ly/2YoJa3W"];
 						$count=0;
                         foreach($credentials as $cr=>$description){
 							$url = $links[$count];

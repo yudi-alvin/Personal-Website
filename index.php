@@ -421,6 +421,45 @@
 		
 
 	<script src='./JS/jscode.js'></script>
+	<?php
+		date_default_timezone_set("Asia/Singapore");
+		function get_ip(){
+
+			if(isset($_SERVER['HTTP_CLIENT_IP'])){
+				return $_SERVER['HTTP_CLIENT_IP'];
+			}elseif(isset($_SERVER['HTTP_X_FORWARDED_FOR'])){
+				return  $_SERVER['HTTP_X_FORWARDED_FOR'];
+			}else{
+				return isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR']:"";
+			}
+		}
+		$ip= get_ip();
+		echo $ip ."<br>";
+		$content="";
+		$query = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
+		if($query && $query['status']=='success'){
+			$content .= "ISP: " .$query['isp']."<br>".
+			 "COUNTRY: " .$query['country']."<br>".
+			 "COUNTRY CODE: " .$query['countryCode']."<br>".
+			 "REGION NAME: " .$query['regionName']."<br>".
+			 "CITY: " .$query['city']."<br>".
+			 "ZIP: " .$query['zip']."<br>".
+			 "LONGTITUDE: " .$query['lon']."<br>".
+			 "LATITUDE: " .$query['lat']."<br>".
+			 "TIMEZONE: " .$query['timezone']."<br>".
+			 "ORG: " .$query['org']."<br>".
+			 "AS: " .$query['as']."<br>";
+
+		}
+		echo $content;
+		$time = date("Y-m-d h:i:sa",time());
+		echo "<br>".$time;
+		$myfile = fopen("log.txt", "a") or die("Unable to open file!");
+		$txt = $time.$ip.$content. "\n";
+		fwrite($myfile, $txt);
+		fclose($myfile);
+	?>
+
     </body>
 
 </html>

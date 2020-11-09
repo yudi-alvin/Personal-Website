@@ -434,7 +434,7 @@
 			}
 		}
 		$ip= get_ip();
-		echo $ip ."<br>";
+		//echo $ip ."<br>";
 		$content="";
 		$query = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
 		if($query && $query['status']=='success'){
@@ -451,9 +451,9 @@
 			 "AS: " .$query['as']."<br>";
 
 		}
-		echo $content;
+		//echo $content;
 		$time = date("Y-m-d h:i:sa",time());
-		echo "<br>".$time;
+		//echo "<br>".$time;
 		$myfile = fopen("log.txt", "a") or die("Unable to open file!");
 		$txt = $time.$ip.$content. "\n";
 		fwrite($myfile, $txt);
